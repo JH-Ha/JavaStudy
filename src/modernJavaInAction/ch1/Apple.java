@@ -10,4 +10,8 @@ public class Apple {
 	public String getColor() {
 		return color;
 	}
+
+	public static boolean isGreenAple(Apple apple) {
+		return "green".equals(apple.getColor());
+	}
 }
