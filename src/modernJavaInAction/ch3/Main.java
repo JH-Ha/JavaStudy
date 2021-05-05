@@ -65,11 +65,20 @@ public class Main {
 		List<Apple> apples = map(weights, Apple::new);
 
 		apples.stream().forEach(a -> System.out.println(a.weight));
+
+		// 3.8.3 Function а╤гу
+
+		Function<Integer, Integer> f = x -> x + 1;
+		Function<Integer, Integer> g = x -> x * 2;
+		Function<Integer, Integer> h = f.andThen(g);
+
+		// expected 22, because (10 + 1) * 2 = 22
+		System.out.println(h.apply(10));
 	}
 
 	public static List<Apple> map(List<Integer> weights, Function<Integer, Apple> f) {
 		List<Apple> result = new ArrayList<>();
-		for (Integer weight : weights) {
+		for (var weight : weights) {
 			result.add(f.apply(weight));
 		}
 		return result;
