@@ -1,5 +1,7 @@
 package modernJavaInAction.ch3;
 
+import java.util.Arrays;
+import java.util.List;
 import java.util.concurrent.Callable;
 
 @FunctionalInterface
@@ -20,6 +22,10 @@ public class Main {
 		Thread t = new Thread(r);
 		t.start();
 		t.join();
+
+		List<String> str = Arrays.asList("a", "b", "A", "B");
+		str.sort(String::compareToIgnoreCase);
+		str.stream().forEach(a -> System.out.println(a));
 	}
 
 	public Callable<String> fetch() {
