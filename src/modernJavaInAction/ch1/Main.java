@@ -47,5 +47,11 @@ public class Main {
 		for (int i = 0; i < result.size(); i++) {
 			System.out.println(result.get(i).getColor());
 		}
+		System.out.println("========");
+		System.out.println("stream result");
+		inventory.stream().filter(Apple::isGreenAple).forEach(a -> System.out.println(a.getColor()));
+		System.out.println("========");
+		System.out.println("parellel stream result");
+		inventory.parallelStream().filter(Apple::isGreenAple).forEach(a -> System.out.println(a.getColor()));
 	}
 }
