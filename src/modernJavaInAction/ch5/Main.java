@@ -2,6 +2,7 @@ package modernJavaInAction.ch5;
 
 import java.util.Arrays;
 import java.util.List;
+import java.util.Optional;
 import java.util.stream.Collectors;
 
 import modernJavaInAction.ch4.Dish;
@@ -27,5 +28,37 @@ public class Main {
 		List<Dish> slicedMenu2 = specialMenu.stream().dropWhile(dish -> dish.getCalories() < 320)
 				.collect(Collectors.toList());
 		slicedMenu2.forEach(a -> System.out.println(a));
+
+		// anyMatch
+		if (specialMenu.stream().anyMatch(Dish::isVegetarian)) {
+			System.out.println("The menu is vegetarian friendly!!");
+		}
+
+		// allMatch
+		boolean isHealthy = specialMenu.stream().allMatch(dish -> dish.getCalories() < 1000);
+		System.out.println("isHealthy " + isHealthy);
+
+		// noneMatch
+
+		isHealthy = specialMenu.stream().noneMatch(d -> d.getCalories() >= 1000);
+		System.out.println("isHealthy noneMatch : " + isHealthy);
+
+		// Optional findAny
+
+		specialMenu.stream().filter(Dish::isVegetarian).findAny().ifPresent(dish -> System.out.println(dish.getName()));
+
+		// 5.4.4 find first result
+
+		List<Integer> someNumbers = Arrays.asList(1, 2, 3, 4, 5);
+		Optional<Integer> firstSquareDivisibleByThree = someNumbers.stream().map(n -> n * n).filter(n -> n % 3 == 0)
+				.findFirst();
+		firstSquareDivisibleByThree.ifPresent(number -> System.out.println(number));
+
+		// reduce
+		int sum = someNumbers.stream().reduce(0, (a, b) -> a + b);
+		System.out.println("sum : " + sum);
+		sum = someNumbers.stream().reduce(0, Integer::sum);
+		System.out.println("sum Integer::sum : " + sum);
+
 	}
 }
