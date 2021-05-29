@@ -21,6 +21,7 @@ public class Main {
 				transactionForCurrency = new ArrayList<>();
 				transactionsByCurrencies.put(currency, transactionForCurrency);
 			}
+			transactionForCurrency.add(transaction);
 		}
 
 		// using stream
