@@ -41,7 +41,7 @@ public class Screening {
 		this.sequence = sequence;
 	}
 
-	public LocalDateTime getWhenScreened() {
+	public LocalDateTime getStartTime() {
 		return whenScreened;
 	}
 
@@ -49,4 +49,7 @@ public class Screening {
 		this.whenScreened = whenScreened;
 	}
 
+	public Money getMovieFee() {
+		return movie.getFee();
+	}
 }
