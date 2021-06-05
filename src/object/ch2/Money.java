@@ -40,4 +40,8 @@ public class Money {
 		return amount.compareTo(other.amount) >= 0;
 	}
 
+	public BigDecimal getAmount() {
+		return amount;
+	}
+
 }

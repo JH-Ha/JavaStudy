@@ -10,7 +10,7 @@ public class SequenceCondition implements DiscountCondition {
 	@Override
 	public boolean isSatisfiedBy(Screening screening) {
 		// TODO Auto-generated method stub
-		return false;
+		return screening.isSequence(sequence);
 	}
 
 }

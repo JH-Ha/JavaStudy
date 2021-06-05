@@ -17,8 +17,8 @@ public class Screening {
 		return new Reservation(customer, this, calculateFee(audienceCount), audienceCount);
 	}
 
-	public Money cacluateFee(int audienceCount) {
-		return movie.cacluateMovieFee(this).times(audienceCount);
+	public Money calculateFee(int audienceCount) {
+		return movie.calculateMovieFee(this).times(audienceCount);
 	}
 
 	public boolean isSequence(int sequence) {
