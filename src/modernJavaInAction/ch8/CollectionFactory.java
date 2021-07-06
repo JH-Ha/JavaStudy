@@ -1,6 +1,7 @@
 package modernJavaInAction.ch8;
 
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.Set;
@@ -37,5 +38,29 @@ public class CollectionFactory {
 		referenceCodes.add("b13");
 		referenceCodes.replaceAll(code -> Character.toUpperCase(code.charAt(0)) + code.substring(1));
 		referenceCodes.stream().forEach(a -> System.out.println(a));
+
+		// 8.3.4 compute pattern
+
+		Map<String, List<String>> friendsToMovies = new HashMap<>();
+		friendsToMovies.computeIfAbsent("momo", name -> new ArrayList<>()).add("dark night");
+		friendsToMovies.forEach((key, value) -> System.out.println(value));
+
+		// 8.3.6 replace pattern
+
+		Map<String, String> favoriteMovies = new HashMap<>();
+		favoriteMovies.put("Raphael", "Star Wars");
+		favoriteMovies.replaceAll((friend, movie) -> movie.toUpperCase());
+		System.out.println(favoriteMovies);
+
+		// 8.3.7 merge
+
+		Map<String, String> friendsMap = Map.ofEntries(Map.entry("Cristina", "James Bond"));
+		Map<String, String> familyMap = Map.ofEntries(Map.entry("Cristina", "Star Wars"));
+		Map<String, String> everyone = new HashMap<>(familyMap);
+
+		friendsMap.forEach((k, v) -> {
+			everyone.merge(k, v, (movie1, movie2) -> movie1 + " & " + movie2);
+		});
+		System.out.println(everyone);
 	}
 }
