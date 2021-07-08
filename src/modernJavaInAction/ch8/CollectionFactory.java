@@ -4,7 +4,9 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
+import java.util.Optional;
 import java.util.Set;
+import java.util.concurrent.ConcurrentHashMap;
 
 public class CollectionFactory {
 	public static void main(String[] args) {
@@ -62,5 +64,16 @@ public class CollectionFactory {
 			everyone.merge(k, v, (movie1, movie2) -> movie1 + " & " + movie2);
 		});
 		System.out.println(everyone);
+
+		// 8.4.1 reduce
+
+		ConcurrentHashMap<String, Long> map = new ConcurrentHashMap<>();
+		long parallelismThreshold = 1;
+		map.put("10", 10L);
+		map.put("20", 20L);
+		Optional<Long> maxValue = Optional.ofNullable(map.reduceValues(parallelismThreshold, Long::max));
+
+		System.out.println(maxValue);
+
 	}
 }
