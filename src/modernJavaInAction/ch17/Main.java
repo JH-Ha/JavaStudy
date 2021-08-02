@@ -7,7 +7,15 @@ public class Main {
 		getTemperatures("New York").subscribe(new TempSubscriber());
 	}
 
+//	private static Publisher<TempInfo> getTemperatures(String town) {
+//		return subscriber -> subscriber.onSubscribe(new TempSubscription(subscriber, town));
+//	}
 	private static Publisher<TempInfo> getTemperatures(String town) {
-		return subscriber -> subscriber.onSubscribe(new TempSubscription(subscriber, town));
+		return subscriber -> {
+			TempProcessor processor = new TempProcessor();
+			processor.subscribe(subscriber);
+			processor.onSubscribe(new TempSubscription(processor, town));
+			// subscriber.onSubscribe(new TempSubscription(subscriber, town));
+		};
 	}
 }
