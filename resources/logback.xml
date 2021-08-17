@@ -3,12 +3,18 @@
 
     <property name="logHome" value="/data/logs/demo" />
 
-    <appender name="logMonitorAppender" class="logback.ch04.LogMonitorAppender">
+    <!-- <appender name="logMonitorAppender" class="logback.ch04.LogMonitorAppender">
+    </appender> -->
+    <appender name="consoleAppender" class="ch.qos.logback.core.ConsoleAppender">
+        <target>System.out</target>
+        <encoder>
+            <pattern>%d{HH:mm:ss.SSS} [%thread] %-5level %logger{36} - %msg%n</pattern>
+        </encoder>
     </appender>
 
     <logger name="logback.ch04" level="INFO" />
     <root level="info">
-        <appender-ref ref="logMonitorAppender" />
+        <appender-ref ref="consoleAppender" />
     </root>
 
 </configuration>

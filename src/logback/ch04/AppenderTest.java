@@ -10,6 +10,7 @@ public class AppenderTest {
 		// LoggerContext lc = (LoggerContext) LoggerFactory.getILoggerFactory();
 		// StatusPrinter.print(lc);
 		logger.debug("test");
+		logger.info("info!!!");
 		logger.error("error!!!!!!");
 	}
 }
