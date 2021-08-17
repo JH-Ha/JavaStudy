@@ -1,0 +1,14 @@
+<configuration debug="true">
+    <contextName>demo</contextName>
+
+    <property name="logHome" value="/data/logs/demo" />
+
+    <appender name="logMonitorAppender" class="logback.ch04.LogMonitorAppender">
+    </appender>
+
+    <logger name="logback.ch04" level="INFO" />
+    <root level="info">
+        <appender-ref ref="logMonitorAppender" />
+    </root>
+
+</configuration>
