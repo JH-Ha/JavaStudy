@@ -23,10 +23,13 @@
 			<immediateFlush>true</immediateFlush>
 		</encoder>
 	</appender>
-	<looger name="logback.ch05" level="INFO" />
+	<logger name="logback.ch05" level="INFO" />
 	<logger name="logback.ch04" level="INFO" />
 	<appender name="STDOUT"
 		class="ch.qos.logback.core.ConsoleAppender">
+		<filter class="logback.ch07.SampleFilter" />
+		<!-- <encoder> <patter> %-4relative [%thread] %-5level %logger - %msg%n 
+			</patter> </encoder> -->
 		<encoder
 			class="ch.qos.logback.core.encoder.LayoutWrappingEncoder">
 			<layout class="logback.ch06.MySampleLayout2">
