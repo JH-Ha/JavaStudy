@@ -59,7 +59,7 @@ public class Main {
 		String s1 = date1.format(DateTimeFormatter.BASIC_ISO_DATE);
 		System.out.println(s1);
 
-		// 12.3.1 時間帯
+		// 12.3.1 timezone
 		ZoneId romeZone = ZoneId.of("Europe/Rome");
 		ZoneId seoulZone = ZoneId.of("Asia/Seoul");
 		LocalDateTime dateTime = LocalDateTime.of(2014, Month.MARCH, 18, 13, 45);
