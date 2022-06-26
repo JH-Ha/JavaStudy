@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="0b970a45-a3b9-4259-bd9b-c7c499f2e4ad" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.classpath" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.1/dependencies-accessors/dependencies-accessors.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.1/dependencies-accessors/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.1/fileChanges/last-build.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.1/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/checksums/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/configuration-cache/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/vcs-1/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.settings/org.eclipse.buildship.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.settings/org.eclipse.core.resources.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.settings/org.eclipse.wst.common.project.facet.core.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/log4j2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/logback.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/agent/Agent.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/agent/AtmTransformer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/agent/ClassLogger.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/effectiveJava/ch01/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/effectiveJava/ch02/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javaUtilLogging/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/log4j/AppenderEx1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/log4j/AppenderEx2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/log4j/HelloWorld.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/log4j/chapter3/Foo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/log4j/chapter3/MyApp2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/log4j/chapter3/config.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/log4j/chapter4/ExitWoes1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/logback/ch01/HelloWorld1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/logback/ch01/HelloWorld2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/logback/ch01/LogLevel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/logback/ch01/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/logback/ch02/ParameterTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/logback/ch03/ReloadMain.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/logback/ch04/AppenderTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/logback/ch04/LogMonitorAppender.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/logback/ch05/EncoderTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/logback/ch06/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/logback/ch06/MySampleLayout.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/logback/ch06/MySampleLayout2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/logback/ch06/PatternSample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/logback/ch07/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/logback/ch07/SampleFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modernJavaInAction/ch1/Apple.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modernJavaInAction/ch1/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modernJavaInAction/ch1/PerformanceCheck.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modernJavaInAction/ch10/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modernJavaInAction/ch10/MethodChainingOrderBuilder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modernJavaInAction/ch10/Order.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modernJavaInAction/ch10/Stock.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modernJavaInAction/ch10/StockBuilder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modernJavaInAction/ch10/Trade.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modernJavaInAction/ch10/TradeBuilder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modernJavaInAction/ch10/TradeBuilderWithStock.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modernJavaInAction/ch11/Car.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modernJavaInAction/ch11/Insurance.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modernJavaInAction/ch11/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modernJavaInAction/ch11/Person.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modernJavaInAction/ch12/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modernJavaInAction/ch13/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modernJavaInAction/ch15/CFComplete.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modernJavaInAction/ch15/CallbackStyleExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modernJavaInAction/ch15/ExecutorServiceExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modernJavaInAction/ch15/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modernJavaInAction/ch15/ScheduledExecutorServiceExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modernJavaInAction/ch16/Discount.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modernJavaInAction/ch16/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modernJavaInAction/ch16/Quote.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modernJavaInAction/ch16/Shop.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modernJavaInAction/ch17/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modernJavaInAction/ch17/TempInfo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modernJavaInAction/ch17/TempProcessor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modernJavaInAction/ch17/TempSubscriber.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modernJavaInAction/ch17/TempSubscription.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modernJavaInAction/ch2/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modernJavaInAction/ch3/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modernJavaInAction/ch4/Dish.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modernJavaInAction/ch4/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modernJavaInAction/ch5/IntStreamPractice.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modernJavaInAction/ch5/IteratePractice.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modernJavaInAction/ch5/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modernJavaInAction/ch5/Practice.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modernJavaInAction/ch6/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modernJavaInAction/ch8/CollectionFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modernJavaInAction/ch9/Debugging.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modernJavaInAction/ch9/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/object/ch1/Audience.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/object/ch1/Bag.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/object/ch1/Invitation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/object/ch1/Theater.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/object/ch1/Ticket.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/object/ch1/TicketOffice.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/object/ch1/TicketSeller.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/object/ch2/AmountDiscountPolicy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/object/ch2/Customer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/object/ch2/DiscountCondition.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/object/ch2/DiscountPolicy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/object/ch2/Money.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/object/ch2/Movie.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/object/ch2/NoneDiscountPolicy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/object/ch2/PercentDiscountPolicy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/object/ch2/PeriodCondition.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/object/ch2/Reservation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/object/ch2/Screening.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/object/ch2/SequenceCondition.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/object/ch2/TestMain.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/reflection/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/reflection/Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/slf4j/ch01/HelloWorld.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/syncronized/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/syncronized/TaskRunner.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2B7RgCAJgqpOZ9SnM7POnBqQoek" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0b970a45-a3b9-4259-bd9b-c7c499f2e4ad" name="Changes" comment="" />
+      <created>1656255259801</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1656255259801</updated>
+    </task>
+    <servers />
+  </component>
+</project>
