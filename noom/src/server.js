@@ -1,6 +1,7 @@
-import http from "http";
+import https from "https";
 import SocketIO from 'socket.io';
 import express from "express";
+import fs from 'fs';
 
 const app = express();
 
@@ -11,7 +12,27 @@ app.get("/", (req, res) => res.render("home"));
 app.get("/*", (req, res) => res.redirect("/"));
 
 const handleListen = () => console.log("Listening on http://localhost:3000");
-const httpServer = http.createServer(app);
-const wsServer = SocketIO(httpServer);
+const httpsServer = https.createServer({
+    key: fs.readFileSync(__dirname + '/cert/server.key'),
+    cert: fs.readFileSync(__dirname + '/cert/server.cert')
+}, app);
+const wsServer = SocketIO(httpsServer);
 
-httpServer.listen(3000, handleListen);
+wsServer.on("connection", (socket) => {
+    socket.on("join_room", (roomName) => {
+        socket.join(roomName);
+        socket.to(roomName).emit("welcome");
+    });
+    socket.on("offer", (offer, roomName) => {
+        socket.to(roomName).emit("offer", offer);
+    });
+    socket.on("answer", (answer, roomName) => {
+        socket.to(roomName).emit("answer", answer);
+    });
+    socket.on("ice", (ice, roomName) => {
+        socket.to(roomName).emit("ice", ice);
+    })
+})
+
+
+httpsServer.listen(3000, handleListen);
